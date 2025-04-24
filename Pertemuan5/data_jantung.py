@@ -10,7 +10,7 @@ from sklearn import metrics
 from sklearn.metrics import confusion_matrix
 
 # Load dataset
-df = pd.read_csv('heart1.csv')  # Pastikan file CSV berada di direktori yang sama dengan script ini
+df = pd.read_csv('heart.csv')  # Pastikan file CSV berada di direktori yang sama dengan script ini
 print(df.head())                # Tampilkan 5 baris pertama
 print(df.describe())            # Ringkasan statistik
 print(df.info())                # Informasi struktur data
